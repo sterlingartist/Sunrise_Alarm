@@ -331,7 +331,7 @@ void Alarm(){
   if (setAlarm==0)
     {
      printAlarmOff();
-     noTone (LED);
+     digitalWrite (LED, LOW);
      }
   if (setAlarm==1)
     {
