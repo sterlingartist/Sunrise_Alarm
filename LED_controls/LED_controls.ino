@@ -1,12 +1,12 @@
 int duty = 0;
 int steps = 64;
 //this is the human readable number of minutes for duration of sunrise
-int minutes_of_sunrise = 30;
+int minutes_of_sunrise = 1;
 //187.5 is the multiplier necessary to get the math of the PWM and number of light levels to equate to minutes in real life 
 int numberofpulses = minutes_of_sunrise * 187.5;
 int i;
 int j;
-int LED = 5;
+int LED = 3;
 
 int lookup[64] = {1,2,4,6,9,12,16,20,25,30,36,
 42,49,56,64,72,81,90,100,110,121,132,
